@@ -60,4 +60,14 @@ workflows:
         name: windows-1-12
         os: windows
         go_version: "1.12"
+    - test:
+        command: no-test
+        name: windows-1-13
+        os: windows
+        go_version: "1.13"
+    - test:
+        command: no-test
+        name: windows-1-13
+        os: windows
+        go_version: "1.13"
     - codespell
